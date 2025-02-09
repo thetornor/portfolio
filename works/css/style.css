@@ -1,0 +1,86 @@
+body{
+    background: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    font-family: Helvetica Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    margin: 3%;
+}
+header{
+    font-size: 150px;
+    font-weight: bold;
+    text-align: right;
+    position: fixed;
+    right: 3%;
+}
+.item{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    width: 30rem;
+}
+.bag{
+    rotate: -15deg;
+    width: 30rem;
+    filter: grayscale(100%);
+    mix-blend-mode: difference;
+
+}
+.bag:hover{
+    rotate: 15deg;
+    transition: 1s;
+    filter: grayscale(0);
+}
+.alc{
+    width: 30rem;
+    filter: grayscale(100%);
+    mix-blend-mode: difference;
+
+}
+.alc:hover{
+    rotate: -15deg;
+    transition: 1s;
+    filter: grayscale(0);
+}
+.khon{
+    width: 35rem;
+    filter: grayscale(100%);
+
+}
+.khon:hover{
+    rotate: -15deg;
+    transition: 1s;
+    filter: grayscale(0);
+}
+.tao{
+    rotate: 15deg;
+    width: 30rem;
+    filter: grayscale(100%);
+    mix-blend-mode: difference;
+
+}
+.tao:hover{
+    rotate: -15deg;
+    transition: 1s;
+    filter: grayscale(0);
+}
+.me{
+    width: 30rem;
+    mix-blend-mode: difference;
+}
+.me:hover{
+    rotate: 15deg;
+    transition: 1s;
+}
+.cam{
+    rotate: -15deg;
+    width: 30rem;
+    filter: grayscale(100%);
+    mix-blend-mode: difference;
+}
+.cam:hover{
+    rotate: 15deg;
+    transition: 1s;
+    filter: grayscale(0);
+}
