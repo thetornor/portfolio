@@ -142,7 +142,7 @@ header{
     filter: grayscale(100%);
     mix-blend-mode: difference;
 }
-.moment{
+.moment:hover{
     rotate: 15deg;
     transition: 1s;
     filter: grayscale(0);
