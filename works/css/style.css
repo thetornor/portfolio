@@ -126,3 +126,24 @@ header{
     transition: 1s;
     filter: grayscale(0);
 }
+.wiki{
+    rotate: -5deg;
+    width: 30rem;
+    filter: grayscale(100%);
+    mix-blend-mode: difference;
+}
+.wiki:hover{
+    rotate: 5deg;
+    transition: 1s;
+    filter: grayscale(0);
+}
+.moment{
+    width: 30rem;
+    filter: grayscale(100%);
+    mix-blend-mode: difference;
+}
+.moment{
+    rotate: 15deg;
+    transition: 1s;
+    filter: grayscale(0);
+}
