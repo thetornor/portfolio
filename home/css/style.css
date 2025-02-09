@@ -40,7 +40,7 @@ h1 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #000000;
+    background-color: blue;
     font-size: 20px;
     min-width: 6rem;
     z-index: 1;
