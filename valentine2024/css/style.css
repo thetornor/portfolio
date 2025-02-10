@@ -7,16 +7,6 @@ body {
     text-align: left;
     margin: 3%;
 }
-
-h1 {
-    width: 964px;
-    margin-left: 5rem;
-    font-weight: Medium;
-    font-size: 150px;
-    mix-blend-mode: difference;
-    padding: 6rem;
-}
-
 .dropbtn {
     z-index: 4;
     margin: 1rem;
@@ -58,56 +48,35 @@ h1 {
   
 .dropdown:hover .dropbtn {background-color: #0000ff;}
 
-.q1 {
-    margin-right: 35%;
-    margin-left: 5rem;
-    mix-blend-mode: difference;
-    padding: 3rem;
-}
-.q2 {
-    margin-right: 35%;
-    margin-left: 5rem;
-    mix-blend-mode: difference;
-    padding: 3rem;
-}
-.q3 {
-    margin-right: 35%;
-    margin-left: 5rem;
-    mix-blend-mode: difference;
-    padding: 3rem;
-}
-.foot {
-    width: 100%;
-    font-size: 25px;
-    text-align: center;
-}
-.img {
-    width: 610px;
-    height: 411px;
-    background: url("../images/v2_5.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
+h1{
+    font-size: 90px;
+    font-weight: bold;
+    text-align: right;
     position: fixed;
-    top: 279px;
-    left: 710px;
-    overflow: hidden;
-    z-index: -1;
+    right: 3rem;
+    top: 45%;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    position: fixed;
+    right: 3rem;
+    top: 60%;
+}
+.items{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    width: 60rem;
+    height: auto;
+    gap: 5rem;
 
 }
-.img:hover{
-    filter: grayscale(100%) blur(5px);
+#img1{
+    width: 15rem;
 }
-.q1:hover{
-    color: blue;
-    transition: 2s linear;
-}
-.q2:hover{
-    color: blue;
-    transition: 0.5s linear;
-}
-.q3:hover{
-    color: blue;
-    transition: 0.5s linear;
+#img2{
+    width: 15rem;
 }
