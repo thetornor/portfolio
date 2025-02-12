@@ -1,0 +1,109 @@
+body{
+  background: rgba(0,0,0,1);
+  color: rgba(255,255,255,1);
+  font-family: Helvetica Neue;
+  font-weight: Regular;
+  font-size: 30px;
+  margin: 3%;
+}
+.dropbtn {
+  z-index: 4;
+  margin: 1rem;
+  display: inline-block;
+  border-radius: 3rem;
+  background-color: blue;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 40px;
+}
+.dropbtn:hover{
+  rotate: -90deg;
+  transition: 0.25s;
+}
+.dropdown {
+  display: inline-block;
+  position: fixed;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blue;
+  font-size: 20px;
+  min-width: 6rem;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #000000;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #0000ff;}
+
+.name{
+  font-size: 150px;
+  font-weight: bold;
+  text-align: right;
+  position: fixed;
+  right: 3%;
+  width: 40rem;
+  mix-blend-mode: difference;
+}
+.scroll-container {
+  position: absolute;
+  bottom: -60%;
+  background-color: blue;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container img {
+  padding: 10px;
+}
+.scroll-container img:hover {
+  width: 20rem;
+  transition: 0.3s linear;
+}
+.figure {
+  position: relative;
+  width: 800px;
+  max-width: 100%;
+}
+.figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.figure .image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.figure:hover .image-hover {
+  opacity: 1;
+  
+}
+.figure:hover .image-main{
+  opacity: 0;
+}
+p{
+  text-align: left;
+  margin-left: 150%;
+  position: absolute;
+  top: 45rem;
+  right: -150%;
+  mix-blend-mode: difference;
+}
