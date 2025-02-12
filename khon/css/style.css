@@ -46,7 +46,6 @@ body{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #0000ff;}
-
 .name{
   font-size: 150px;
   font-weight: bold;
@@ -101,9 +100,9 @@ body{
 }
 p{
   text-align: left;
-  margin-left: 150%;
+  margin-left: 85%;
   position: absolute;
   top: 45rem;
-  right: -150%;
+  right: -110%;
   mix-blend-mode: difference;
 }
