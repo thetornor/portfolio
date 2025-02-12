@@ -1,20 +1,13 @@
 body {
     background: rgba(0,0,0,1);
     color: rgba(255,255,255,1);
-    font-family: Helvetica Neue;
-    font-weight: Regular;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: normal; /* 'Regular' is not a valid font-weight value */
     font-size: 30px;
     text-align: left;
     margin: 3%;
-}
-
-h1 {
-    width: 964px;
-    margin-left: 5rem;
-    font-weight: Medium;
-    font-size: 150px;
-    mix-blend-mode: difference;
-    padding: 6rem;
+    height: auto;
+    width: auto;
 }
 
 .dropbtn {
@@ -28,15 +21,17 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
-.dropbtn:hover{
-    rotate: -90deg;
+
+.dropbtn:hover {
+    transform: rotate(-90deg); /* corrected rotate property */
     transition: 0.25s;
 }
+
 .dropdown {
     display: inline-block;
-    position: fixed;
+    position: relative; /* changed from fixed */
 }
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -45,69 +40,47 @@ h1 {
     min-width: 6rem;
     z-index: 1;
 }
-  
+
 .dropdown-content a {
     color: white;
     text-decoration: none;
     display: block;
 }
-  
-.dropdown-content a:hover {background-color: #000000;}
-  
-.dropdown:hover .dropdown-content {display: block;}
-  
-.dropdown:hover .dropbtn {background-color: #0000ff;}
 
-.q1 {
-    margin-right: 35%;
-    margin-left: 5rem;
-    mix-blend-mode: difference;
-    padding: 3rem;
+.dropdown-content a:hover {
+    background-color: #000000;
 }
-.q2 {
-    margin-right: 35%;
-    margin-left: 5rem;
-    mix-blend-mode: difference;
-    padding: 3rem;
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
-.q3 {
-    margin-right: 35%;
-    margin-left: 5rem;
-    mix-blend-mode: difference;
-    padding: 3rem;
+
+.dropdown:hover .dropbtn {
+    background-color: #0000ff;
 }
-.foot {
-    width: 100%;
-    font-size: 25px;
+
+h1 {
+    font-size: 150px;
+    font-weight: bold;
     text-align: center;
+    mix-blend-mode: difference;
+    width: 80%;
+    margin: 0 auto;
 }
-.img {
-    width: 610px;
-    height: 411px;
-    background: url("../images/v2_5.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: fixed;
-    top: 279px;
-    left: 710px;
-    overflow: hidden;
-    z-index: -1;
+
+video {
+    position: absolute;
+    right: -50%;
+    top: -40%;
+    width: 40rem;
+    margin: 20rem auto ; 
 
 }
-.img:hover{
-    filter: grayscale(100%) blur(5px);
-}
-.q1:hover{
-    color: blue;
-    transition: 2s linear;
-}
-.q2:hover{
-    color: blue;
-    transition: 0.5s linear;
-}
-.q3:hover{
-    color: blue;
-    transition: 0.5s linear;
+
+h4 {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 30px;
+    font-family: 'Reddit Mono', monospace;
 }
