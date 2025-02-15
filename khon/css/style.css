@@ -100,12 +100,12 @@ body{
 .figure:hover .image-main{
   opacity: 0;
 }
-p{
+#myDIV {
+  display: none;
   font-size: 20px;
   width: 35%;
   text-align: right;
   position: fixed;
   top: 40%;
-right: 2%;
-  mix-blend-mode: difference;
+  right: 2%;
 }

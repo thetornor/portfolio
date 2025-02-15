@@ -15,7 +15,15 @@
             </div>
         </div>
         <div class="body">
-            <span class="name">KHON, WRAP</span>
+            <span class="name" onclick="myFunction()">KHON, WRAP</span>
+                <p id="myDIV">Khon, Thai traditional art performance.The actors will be wearing masks during their performance and each character got their own mask present each character.
+                <br>Many layers of papier-mache are applied to the form of the mask according to each character's features. This paper is made of rice or a unique handmade paper made from the bark of a tree called "Khoi". Up to 20 layers of Khoi paper are glued ontothe form, then the surface is dried and smoothed.
+                <br>Additional layers of papier-mache are added, and the mask is smoothed with water-based clay and natural resin.
+                <br>The decoration is finished using paint, lacquer, gold leaf shell, and colored glass fragments. For the finest examples, semi-precious gems are used, and real ivory is used for tusks and fangs.
+                <br>This work I was inspired by Christo and Jeanne-Claude'sL' Arc de Triomphe, Wrapped. They borrow the space and create a gentle disturbances to that. Even many people try to stop them but they think that the real exhibition of an incredible energy of human is in that space.
+                </p>
+            </div>
+
             <div class="scroll-container">
                 <img src="images/img1.png" width="150rem">
                 <img src="images/img2.png" width="150rem">
@@ -25,7 +33,7 @@
                 <img src="images/img6.png" width="150rem">
                 <img src="images/img7.png" width="150rem">
                 <img src="images/img8.png" width="150rem">
-                <img src="images/img8.png" width="150rem">
+                <img src="images/img9.png" width="150rem">
                 <img src="images/img10.png"width="150rem">
                 <img src="images/img11.png" width="150rem">
                 <img src="images/img12.png" width="150rem">
@@ -45,13 +53,16 @@
                 <img class="image-main"src="./images/final.png" >
                 <img class="image-hover"src="./images/very-final.png">
             </div>
-
-            <p>Khon, Thai traditional art performance.The actors will be wearing masks during their performance and each character got their own mask present each character.
-            <br>Many layers of papier-mache are applied to the form of the mask according to each character's features. This paper is made of rice or a unique handmade paper made from the bark of a tree called "Khoi". Up to 20 layers of Khoi paper are glued ontothe form, then the surface is dried and smoothed.
-            <br>Additional layers of papier-mache are added, and the mask is smoothed with water-based clay and natural resin.
-            <br>The decoration is finished using paint, lacquer, gold leaf shell, and colored glass fragments. For the finest examples, semi-precious gems are used, and real ivory is used for tusks and fangs.
-            <br>This work I was inspired by Christo and Jeanne-Claude'sL' Arc de Triomphe, Wrapped. They borrow the space and create a gentle disturbances to that. Even many people try to stop them but they think that the real exhibition of an incredible energy of human is in that space.
-            </p>
         </div>
+        <script>
+            function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display == "block") { // `=` to `==` or `===`
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+        </script>
     </body>
 </html>
