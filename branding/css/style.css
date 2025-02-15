@@ -69,12 +69,13 @@ h1 {
     right: 5%;
     top:40%
     margin:1rem;
+    mix-blend-mode: difference;
 }
 img{
     filter: blur(1px);
 }
 img:hover{
-    width: 15rem;
+    width: 20rem;
     transition: 0.2s;
     filter: blur(0);
 }
@@ -87,5 +88,6 @@ img:hover{
     position: absolute;
     right: 2%;
     top:120%;
-    padding-bottom: 10rem;
+    padding-bottom: 40rem;
+    mix-blend-mode: difference;
 }
