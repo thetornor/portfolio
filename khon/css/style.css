@@ -60,7 +60,7 @@ body{
   position: absolute;
   bottom: -60%;
   background-color: blue;
-  overflow: auto;
+  overflow-y: auto;
   white-space: nowrap;
   padding: 10px;
 }
@@ -73,9 +73,9 @@ body{
   transition: 0.3s linear;
 }
 .figure {
-  position: relative;
+  position: fixed;
   top:4%;
-  width: 700px;
+  width: 600px;
   max-width: 100%;
 }
 .figure img {
@@ -101,10 +101,11 @@ body{
   opacity: 0;
 }
 p{
-  text-align: left;
-  margin-left: 90%;
-  position: absolute;
-  top: 45%;
-  right: -110%;
+  font-size: 20px;
+  width: 35%;
+  text-align: right;
+  position: fixed;
+  top: 40%;
+right: 2%;
   mix-blend-mode: difference;
 }
