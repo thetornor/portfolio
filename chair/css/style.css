@@ -5,20 +5,9 @@ body {
     font-weight: Regular;
     font-size: 30px;
     text-align: left;
-    margin: 3rem;
-    padding: 3rem;
+    padding: 0;
+    
 }
-
-h1 {
-    width: 40rem;
-    font-weight: Medium;
-    font-size: 100px;
-    mix-blend-mode: difference;
-    padding: 2rem;
-    position: fixed;
-    bottom: 20%;
-}
-
 .dropbtn {
     z-index: 4;
     margin: 1rem;
@@ -29,49 +18,46 @@ h1 {
     height: 3rem;
     text-align: center;
     font-size: 40px;
-}
-.dropbtn:hover{
+  }
+  .dropbtn:hover{
     rotate: -90deg;
     transition: 0.25s;
-}
-.dropdown {
+  }
+  .dropdown {
     display: inline-block;
     position: fixed;
-}
+  }
   
-.dropdown-content {
+  .dropdown-content {
     display: none;
     position: absolute;
     background-color: blue;
     font-size: 20px;
     min-width: 6rem;
     z-index: 1;
-}
+  }
   
-.dropdown-content a {
+  .dropdown-content a {
     color: white;
     text-decoration: none;
     display: block;
-}
+  }
   
-.dropdown-content a:hover {background-color: #000000;}
+  .dropdown-content a:hover {background-color: #000000;}
   
-.dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block;}
   
-.dropdown:hover .dropbtn {background-color: #0000ff;}
+  .dropdown:hover .dropbtn {background-color: #0000ff;}
 
-.block{
-    text-align: right;
-    display: block;
+h1 {
+    font-weight: Medium;
+    font-size: 100px;
+    mix-blend-mode: difference;
+    padding: 2rem;
+    position: fixed;
+    bottom: 0%;
 }
-.line{
-    border: 5px;
-    width: 30%;
-    align-self: right;
-    color: white;
-    gap: 4rem;
-}
-h4{
-    padding: 3rem;
-    border-bottom: 3px white;
+.presentation{
+margin-top: 10%;
+margin-left: 30%;
 }

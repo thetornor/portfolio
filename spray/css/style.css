@@ -70,8 +70,8 @@ h1 {
 
 video {
     position: absolute;
-    right: -50%;
-    top: -40%;
+    top: 50%;
+    left: 30%;
     width: 40rem;
     margin: 20rem auto ; 
 
