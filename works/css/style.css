@@ -147,3 +147,13 @@ header{
     transition: 1s;
     filter: grayscale(0);
 }
+.chair{
+    width: 25rem;
+    filter: grayscale(100%);
+    mix-blend-mode: difference;
+}
+.chair:hover{
+    rotate: -15deg;
+    transition: 1s;
+    filter: grayscale(0);
+}
