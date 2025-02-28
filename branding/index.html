@@ -1,102 +1,128 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Helvetica+Neue&display=swap" rel="stylesheet" />
-        <link href="./css/style.css" rel="stylesheet" />
-        <title>TN Luanguthai</title>
-    </head>
-    <body>
-        <div class="dropdown">
-            <button class="dropbtn">+</button>
-            <div class="dropdown-content">
-              <a href="https://thetornor.github.io/portfolio/home/">about me</a>
-              <a href="https://thetornor.github.io/portfolio/resume/">resume</a>
-              <a href="https://thetornor.github.io/portfolio/works/">works</a>
-            </div>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Helvetica+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>TN Luanguthai</title>
+  </head>
+  <body>
+    <!-- Left pane -->
+    <div class="split left-pane">
+      <div class="centered nav-left">
+        <h1>BRANDING DESIGN</h1>
+      </div>
+      <div class="dropdown">
+          <i class="bx bx-plus dropbtn"></i>
+        <div class="dropdown-content">
+          <a href="https://thetornor.github.io/portfolio/home/">about me</a>
+          <a href="https://thetornor.github.io/portfolio/resume/">resume</a>
+          <a href="https://thetornor.github.io/portfolio/works/">works</a>
         </div>
-        <div class="split left">
-        <div class="centered">
-            <h1>BRANDING DESIGN</h1>
-        </div>
-        </div>
-        
-        <div class="split right">
-          <div class="centered">
-            <div class="block">
-                <h4 id="WL"> Wedding label</h4>
-                <hr>
-                <div id="WLimg">
-                    <img src="./images/T-1.png">
-                    <img src="./images/T-2.png">
-                    <img src="./images/T-6.png">
-                    <img src="./images/T-3.png">
-                    <img src="./images/T-4.png">
-                    <img src="./images/T-5.png">
-                </div>
-                <h4 class="CL"> Cafe logo</h4>
-                <hr>
-                <div id="CLimg">
-                    <img src="./images/gather.png">
-                    <img src="./images/gather2.png">
-                    <img src="./images/gather3.png">
-                    <img src="./images/gather4.png">
-                </div>
-                <h4 id="BL"> Bakery logo</h4>
-                <div  id="BLimg">
-                    <img src="./images/ky1.png">
-                    <img src="./images/ky2.png">
-                    <img src="./images/ky3.jpeg">
-                    <img src="./images/ky4.png">
-                    <img src="./images/ky5.png">
-                </div>
-                <hr>
-                <h4 id="RB">Birthday logo</h4>
-                <div  id="RBimg">
-                    <img src="./images/rb60.jpg">
-                    <img src="./images/rb60-2.jpg">
-                    <img src="./images/rb60-3.jpg">
-                    <img src="./images/rb60-4.jpg">
-                    <img src="./images/rb60-5.jpg">
-                </div>
-                <hr>
-                <h4 id="CB"> Clothing brand</h4>
-                <div  id="CBimg">
-                    <img src="./images/2o5.png">
-                    <img src="./images/2o5-2.png">
-            </div>
+      </div>
+    </div>
+
+    <!-- Right pane -->
+    <div class="split right-pane">
+      <div class="centered nav-right">
+        <div class="explore-menu-item">
+          <div class="menu-label">
+            <div id="WL" class="menu-item-title">Wedding label</div>
+            <i class="bx bxs-chevron-right toggle_image_view menu-button" id="btnWL"></i>
+          </div>
+          <hr>
+          <div id="WLimg" class="image-item">
+            <img src="./images/T-1.png" />
+            <img src="./images/T-2.png" />
+            <img src="./images/T-6.png" />
+            <img src="./images/T-3.png" />
+            <img src="./images/T-4.png" />
+            <img src="./images/T-5.png" />
           </div>
         </div>
-</div>
+        <div class="explore-menu-item">
+          <div class="menu-label">
+            <div id="CL" class="menu-item-title">Cafe logo</div>
+            <i class="bx bxs-chevron-right toggle_image_view menu-button" id="btnCL"></i>
+          </div>
+          <hr>
+          <div id="CLimg" class="image-item">
+            <img src="./images/gather.png" />
+            <img src="./images/gather2.png" />
+            <img src="./images/gather3.png" />
+            <img src="./images/gather4.png" />
+          </div>
+        </div>
+        <div class="explore-menu-item">
+          <div class="menu-label">
+            <div id="BL" class="menu-item-title">Bakery logo</div>
+            <i class="bx bxs-chevron-right toggle_image_view menu-button" id="btnBL"></i>
+          </div>
+          <hr>
+          <div id="BLimg" class="image-item">
+            <img src="./images/ky1.png" />
+            <img src="./images/ky2.png" />
+            <img src="./images/ky3.jpeg" />
+            <img src="./images/ky4.png" />
+            <img src="./images/ky5.png" />
+          </div>
+        </div>
+        <div class="explore-menu-item">
+          <div class="menu-label">
+            <div id="RB" class="menu-item-title">Birthday logo</div>
+            <i class="bx bxs-chevron-right toggle_image_view menu-button" id="btnRB"></i>
+          </div>
+          <hr>
+          <div id="RBimg" class="image-item">
+            <img src="./images/rb60-6.png" />
+            <img src="./images/rb60-7.png" />
+            <img src="./images/rb60-8.png" />
+            <img src="./images/rb60-9.png" />
+            <img src="./images/rb60-10.png" />
+            <img src="./images/rb60.jpg" />
+            <img src="./images/rb60-2.jpg" />
+            <img src="./images/rb60-3.jpg" />
+            <img src="./images/rb60-4.jpg" />
+            <img src="./images/rb60-5.jpg" />
+          </div>
+        </div>
+        <div class="explore-menu-item">
+          <div class="menu-label">
+            <div id="CB" class="menu-item-title">Clothing brand</div>
+            <i class="bx bxs-chevron-right toggle_image_view menu-button" id="btnCB"></i>
+          </div>
+          <div id="CBimg" class="image-item">
+            <img src="./images/2o5.png" />
+            <img src="./images/2o5-2.png" />
+          </div>
+        </div>
+      </div> 
+    </div>
 
-<script>
-    function toggleVisibility(id) {
-        var element = document.getElementById(id);
-        if (element.style.display === "none" || element.style.display === "") {
-            element.style.display = "block";
-        } else {
-            element.style.display = "none";
-        }
-    }
+    <script>
+      let menuButtons = document.querySelectorAll(".menu-button");
 
-    document.getElementById("WL").addEventListener("click", function() {
-        toggleVisibility("WLimg");
-    });
+      menuButtons.forEach((menuButton) => {
+        menuButton.addEventListener("click", () => {
+          console.log();
+          var imgList = document.getElementById(menuButton.id.substr(-2) + "img");
+          menuButton.classList.toggle("expand");
+          if(menuButton.classList.contains("expand")){
+            imgList.style.display = "block";
+          }
+          else{
+            imgList.style.display = "none";
+          }
+        });
+      });
 
-    document.getElementById("CL").addEventListener("click", function() {
-        toggleVisibility("CLimg");
-    });
 
-    document.getElementById("BL").addEventListener("click", function() {
-        toggleVisibility("BLimg");
-    });
-
-    document.getElementById("RB").addEventListener("click", function() {
-        toggleVisibility("RBimg");
-    });
-
-    document.getElementById("CB").addEventListener("click", function() {
-        toggleVisibility("CBimg");
-    });
-</script>
-</body>
+    </script>
+  </body>
 </html>
