@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet" />
+        <title>Grandma's way</title>
+    </head>
+    <body>
+<h1 class="heading">GRANDMA'S WAY</h1>
+<div class="intro">
+    <img src="photo/halfpage.png" class="intro-img">
+    <p class="sub-title"> “Grandma's way” is a community campaign that invites retired women to step into a creative, caring space where their wisdom is celebrated and their voices matter. Through weekly activities like knitting, writing, baking Thai desserts, and even learning digital tools, this campaign bridges generations—connecting the past with the present. It’s not just about learning skills; it’s about sharing stories, staying curious, and building a supportive community where everyone, at any age, can grow together.
+    <br><br>“คิด เช่น ย่า” คือแคมเปญที่เปิดพื้นที่สร้างสรรค์สำหรับผู้หญิงวัยเกษียณ ให้ได้มาแบ่งปันภูมิปัญญา เรียนรู้สิ่งใหม่ และเชื่อมโยงกับคนรุ่นหลัง ผ่านกิจกรรมรายสัปดาห์ เช่น ถักไหมพรม เขียนเรื่องราวส่วนตัว เรียนรู้เครื่องมือดิจิทัล ปลูกต้นไม้ และทำขนมไทยกับคุณย่า แคมเปญนี้ไม่เพียงแค่สอนทักษะใหม่ ๆ แต่ยังเป็นการสร้างสังคมที่อบอุ่น ให้ผู้หญิงทุกวัยได้เติบโตไปด้วยกัน พร้อมแบ่งปันเรื่องเล่าและความรู้จากชีวิตที่ผ่านมา</p>
+</div>
+    <hr>
+<div class="activities">
+    	<button id="myButton">Daily Event</button>
+        <img id="output" src="photo/day1.png" class="weekly">
+</div>
+    <hr>
+<video controls="controls">
+    <source src="./photo/movement.mp4">
+</video>
+    <hr>
+<div class="link">
+    <a href="https://www.facebook.com/share/v/16UkGHRbia/">link to Facebook</a>
+</div>
+<script>
+    let output = document.querySelector('#output');
+
+let myArray = [
+    "photo/day1.png",
+    "photo/day2.png",
+    "photo/day3.png",
+    "photo/day4.png",
+    "photo/day5.png",
+    "photo/day6.png",
+    "photo/day7.png"
+];
+
+let index = 0;
+
+function nextEntry() {
+    index = (index + 1) % myArray.length;
+    output.src = myArray[index];
+}
+
+let myButton = document.querySelector("#myButton");
+myButton.addEventListener('click', nextEntry);
+</script>
+    </body>
+
+</html>
+
