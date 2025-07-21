@@ -35,12 +35,19 @@ body{
 .weekly{
     width: 70%;
 }
-#myButton{
+.button{
     font-size: 20px;
     font-family: "Reddit Mono", monospace;
     color: rgb(241, 241, 233);
     background-color: rgb(44, 37, 239);
-    padding: 5%;
+    padding: 10%;
+    text-align: center;
+    border-radius: 20%;
+}
+.button:hover{
+    color: rgb(241, 241, 233);
+    background-color: rgb(231, 97, 14);
+    transition: 0.1s;
 }
 video{
     display: flex;
