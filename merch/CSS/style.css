@@ -1,125 +1,45 @@
 body{
-    background: rgba(0,0,0,1);
-    color: rgba(255,255,255,1);
-    font-family: Helvetica Neue;
-    font-weight: Regular;
-    font-size: 30px;
-    margin: 3%;
-    display: block;
+   font-family: "Reddit Mono", monospace;
+    background-color: rgb(53, 18, 25);
+    color: rgb(241, 241, 233);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 5%;
 }
-.dropbtn {
-    z-index: 4;
-    margin: 1rem;
-    display: inline-block;
-    border-radius: 3rem;
-    background-color: blue;
-    width: 3rem;
-    height: 3rem;
-    text-align: center;
-    font-size: 40px;
+.heading{
+    font-size: 50px;
+    text-align: left;
+    padding-bottom: 4%;
 }
-.dropbtn:hover{
-    rotate: -90deg;
-    transition: 0.25s;
+.intro{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 4%;
+
 }
-.dropdown {
-    display: inline-block;
-    position: fixed;
+.intro-img{
+    width: 70%;
+    padding: 5%;
 }
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: blue;
+.sub-title{
     font-size: 20px;
-    min-width: 6rem;
-    z-index: 1;
+    align-self: left;
 }
-  
-.dropdown-content a {
-    color: white;
-    text-decoration: none;
-    display: block;
+hr{
+    color: rgb(241, 241, 233);
 }
-  
-.dropdown-content a:hover {background-color: #000000;}
-  
-.dropdown:hover .dropdown-content {display: block;}
-  
-.dropdown:hover .dropbtn {background-color: #0000ff;}
+#cam{
+    width: 70%;
+    margin: 14%;
+    background-image: url("images/dis.png");
+}
 
-header{
-    font-size: 150px;
-    font-weight: bold;
-    text-align: right;
-    position: fixed;
-    right: 3%;
+.dispose{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 4%;
 }
-p{
-    position: absolute;
-    top:70%;
-    left: 7%;
-    width: 30rem;
-
-}
-#TE1{
-    width: 30rem;
-    mix-blend-mode: difference;
-    margin-left: 2rem;
-}
-#TE2{
-    width: 33rem;
-    margin-left:60% ;
-    mix-blend-mode: difference;
-}
-#tag-e{
-    width: 30rem;
-    margin-left:10% ;
-    margin-bottom: 30rem;
-    mix-blend-mode: difference;
-}
-#TT1{
-    width: 33rem;
-    margin-left:60% ;
-    mix-blend-mode: difference;
-}
-#TT2{
-    width: 25rem;
-    margin-left:2% ;
-    mix-blend-mode: difference;
-}
-#tag-t{
-    width: 30rem;
-    margin-left:5% ;
-    position: absolute;
-    top: 430%;
-    mix-blend-mode: difference;
-}
-#dis{
-   width: 60rem;
-   position: absolute;
-   top: 540%;
-   left: 20%;
-   mix-blend-mode: difference;
-}
-#dis1{
-    width: 40rem;
-    position: absolute;
-    top: 620%;
-    margin-left: 4%;
-    mix-blend-mode: difference;
-}
-#layout{
-    width: 50rem;
-    position: absolute;
-    top: 680%;
-    left:3%;
-    mix-blend-mode: difference;
-}
-#dis2{
-    width: 40rem;
-    position: absolute;
-    top: 750%;
-    right: 4%;
-    mix-blend-mode: difference;
+.camera1{
+    width: 80%;
+    margin: 10%;
 }

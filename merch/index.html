@@ -6,26 +6,38 @@
         <title>works</title>
     </head>
     <body>
-        <div class="dropdown">
-            <button class="dropbtn">+</button>
-            <div class="dropdown-content">
-              <a href="https://thetornor.github.io/portfolio/home/">about me</a>
-              <a href="https://thetornor.github.io/portfolio/resume/">resume</a>
-              <a href="https://thetornor.github.io/portfolio/works/">works</a>
-            </div>
+        <header class="heading">MANTRA MERCH</header>
+        <div class="intro">
+        <img src="./images/TT2.png" class="intro-img">
+        <p class="sub-title">I strive to convey that happiness knows no limits; everyone is entitled to experience joy, regardless of cultural differences or disabilities. In this mantra, I aim to dismantle the barriers created by human differences and prioritize our happiness. After all, we only live once, and I refuse to leave this world feeling sad.</p>
+        <img src="./images/thai.png" class="intro-img">
+        <img src="./images/TT1.png" class="intro-img">
+        <img src="./images/tag-t.png" class="intro-img">
+        <br>
+        <img src="./images/eng.png" class="intro-img">
+        <img src="./images/TE1.png" class="intro-img">
+        <img src="./images/TE2.png" class="intro-img">
+        <img src="./images/tag-e.png" class="intro-img">
         </div>
-        <header>MANTRA<br>MERCH</header>
-        <p>I strive to convey that happiness knows no limits; everyone is entitled to experience joy, regardless of cultural differences or disabilities. In this mantra, I aim to dismantle the barriers created by human differences and prioritize our happiness. After all, we only live once, and I refuse to leave this world feeling sad.
-        </p>
-        <img src="images/TE1.png" id="TE1">
-        <img src="images/TE2.png" id="TE2">
-        <img src="images/tag-e.png" id="tag-e">
-        <img src="images/TT1.png" id="TT1">
-        <img src="images/TT2.png" id="TT2">
-        <img src="images/tag-t.png" id="tag-t">
-        <img src="images/dis.png" id="dis">
-        <img src="images/layout.png" id="layout">
-        <img src="images/dis1.jpg" id="dis1">
-        <img src="images/dis2.png" id="dis2">
-    </body>
+        <hr>
+
+    <div class="camIMG">
+    <img src="./images/dis.png" id="cam" onclick="changeImage1()">
+    <script>
+        function changeImage1() {
+            let displayImage = document.getElementById('cam');
+            if (displayImage.src.match('./images/dis.png')) {
+                displayImage.src = './images/layout.png';
+            } else {
+                displayImage.src = './images/dis.png';
+            }
+        }
+    </script>        
+</div>
+
+    <div class="dispose">
+        <img src="./images/dis1.jpg" class="camera1">
+        <img src="./images/dis2.png" class="camera1">
+    </div>
+
 </html>
