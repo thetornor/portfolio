@@ -1,112 +1,34 @@
 body{
-  background: rgba(0,0,0,1);
-  color: rgba(255,255,255,1);
-  font-family: Helvetica Neue;
-  font-weight: Regular;
-  font-size: 30px;
-  margin: 3%;
+  font-family: "Reddit Mono", monospace;
+  background-color: rgb(53, 18, 25);
+  color: rgb(241, 241, 233);
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 5%;
 }
-.dropbtn {
-  z-index: ;
-  margin: 1rem;
-  display: inline-block;
-  border-radius: 3rem;
-  background-color: blue;
-  width: 3rem;
-  height: 3rem;
-  text-align: center;
-  font-size: 40px;
-}
-.dropbtn:hover{
-  rotate: -90deg;
-  transition: 0.25s;
-}
-.dropdown {
-  display: inline-block;
-  position: fixed;
-}
+.heading{
+  font-size: 50px;
+  text-align: left;
+    position: fixed;
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: blue;
-  font-size: 20px;
-  min-width: 6rem;
-  z-index: 1;
 }
-
-.dropdown-content a {
-  color: white;
-  text-decoration: none;
-  display: block;
+.HalfScreen{
+  display: grid;
+  grid-template-columns: 50 50;
 }
-
-.dropdown-content a:hover {background-color: #000000;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #0000ff;}
-
-.name{
-  font-size: 150px;
-  font-weight: bold;
-  text-align: right;
-  position: fixed;
-  right: 3%;
-  width: 40rem;
-  mix-blend-mode: difference;
-}
-.scroll-container {
-  position: absolute;
-  bottom: -60%;
-  background-color: blue;
-  overflow-y: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
-
-.scroll-container img {
-  padding: 10px;
-}
-.scroll-container img:hover {
-  width: 20rem;
-  transition: 0.3s linear;
-}
-.figure {
-  position: fixed;
-  top:4%;
-  width: 600px;
-  max-width: 100%;
-  z-index: -1;
-}
-.figure img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.figure .image-hover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  object-fit: contain;
-  opacity: 0;
-  transition: opacity .5s;
-}
-.figure:hover .image-hover {
-  opacity: 1;
-  
-}
-.figure:hover .image-main{
-  opacity: 0;
-}
-#myDIV {
-  display: none;
-  font-size: 20px;
+#mask{
   width: 35%;
-  text-align: right;
   position: fixed;
-  top: 40%;
-  right: 2%;
+  top: 20% ;
+}
+.process{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 4%;
+  padding: 1%;
+  width: 50%;
+  margin-left: 50%;
+}
+img{
+  width: 150px
 }
