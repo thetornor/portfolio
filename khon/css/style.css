@@ -8,9 +8,9 @@ body{
 }
 .heading{
   font-size: 50px;
-  text-align: left;
-    position: fixed;
-
+  text-align: right;
+  position: fixed;
+  right: 15%;
 }
 .HalfScreen{
   display: grid;
@@ -19,16 +19,19 @@ body{
 #mask{
   width: 35%;
   position: fixed;
-  top: 20% ;
+  top: 20%;
+  right: 10%;
+
 }
 .process{
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 4%;
-  padding: 1%;
-  width: 50%;
-  margin-left: 50%;
+  width: 50%; 
 }
-img{
-  width: 150px
+#img{
+  height: 150px;
+  margin: 2%;
+}
+.text{
+  width: 50%;
 }

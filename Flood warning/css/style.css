@@ -1,0 +1,27 @@
+body{
+   font-family: "Reddit Mono", monospace;
+    background-color:  rgb(53, 18, 25);
+    color:rgb(241, 241, 233);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 5%;
+}
+.heading{
+    font-size: 50px;
+    text-align: left;
+}
+.intro{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding-bottom: 5%;
+}
+.intro-img{
+    width: 100%;
+}
+.prototype{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+

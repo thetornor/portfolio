@@ -24,8 +24,13 @@ body{
     font-size: 90px;
 }
 .item{
-    gitize: 40px;
+    font-size: 40px;
     text-transform: uppercase;
+}
+#me{
+    width: 30rem;
+    position: absolute;
+    top: 85%;
 }
 #block{
     display: grid;
