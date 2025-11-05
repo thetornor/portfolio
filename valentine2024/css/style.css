@@ -1,83 +1,35 @@
-body {
-    background: rgba(0,0,0,1);
-    color: rgba(255,255,255,1);
-    font-family: Helvetica Neue;
-    font-weight: Regular;
-    font-size: 30px;
-    text-align: left;
-    margin: 3%;
-    height: auto;
-}
-.dropbtn {
-    z-index: 4;
-    margin: 1rem;
-    display: inline-block;
-    border-radius: 3rem;
-    background-color: blue;
-    width: 3rem;
-    height: 3rem;
-    text-align: center;
-    font-size: 40px;
-}
-.dropbtn:hover{
-    rotate: -90deg;
-    transition: 0.25s;
-}
-.dropdown {
-    display: inline-block;
-    position: fixed;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: blue;
-    font-size: 20px;
-    min-width: 6rem;
-    z-index: 1;
-}
-  
-.dropdown-content a {
-    color: white;
-    text-decoration: none;
-    display: block;
-}
-  
-.dropdown-content a:hover {background-color: #000000;}
-  
-.dropdown:hover .dropdown-content {display: block;}
-  
-.dropdown:hover .dropbtn {background-color: #0000ff;}
-
-h1{
-    font-size: 90px;
-    font-weight: bold;
-    text-align: right;
-    position: fixed;
-    right: 3rem;
-    top: 45%;
-}
-h2{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: right;
-    position: fixed;
-    right: 3rem;
-    top: 60%;
-}
-.items{
+body{
+    font-family: "Reddit Mono", monospace;
+    background-color: rgb(241, 241, 233);
+    color: rgb(53, 18, 25);
+    margin-left: 10rem;
+    margin-right: 10rem;
     display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-items: center;
-    width: 60rem;
-    height: auto;
-    gap: 5rem;
-
+}
+.title{
+    font-size: 50px;
+    text-align: right;
+}
+.name{
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+}
+.info{
+    margin-left: 35rem;
+    font-size: 20px;
+    text-align: right;
+}
+.photo{
+    position: fixed;
+    bottom: 2%;
 }
 #img1{
     width: 15rem;
+    padding: 5rem;
 }
 #img2{
     width: 15rem;
+    padding: 5rem;
+
 }
