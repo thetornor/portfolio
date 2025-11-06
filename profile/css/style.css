@@ -6,6 +6,21 @@ body{
     margin-right: 10rem;
     display: grid;
 }
+html {
+  scroll-behavior: smooth; /* enables smooth scrolling */
+}
+.navbar{
+    width: 14%;
+    margin-top: 5%;
+    position: fixed;
+    right: 10%;
+}
+.navbar a {
+    background-color: rgb(241, 241, 233);
+    color: rgb(53, 18, 25);
+    padding: 3%;
+    border-color: rgb(53, 18, 25);
+}
 .name{
     width: 50%;
     font-size: 120px;

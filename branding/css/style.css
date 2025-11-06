@@ -1,139 +1,43 @@
-body {
-    background: rgba(0,0,0,1);
-    color: rgba(255,255,255,1);
-    font-family: Helvetica Neue;
-    font-weight: Regular;
-    font-size: 30px;
-    text-align: left;
+html {
+  scroll-behavior: smooth; /* enables smooth scrolling */
 }
-
-.dropbtn {
-    z-index: 4;
-    margin: 1rem;
-    display: inline-block;
-    border-radius: 3rem;
-    background-color: blue;
-    width: 3rem;
-    height: 3rem;
-    text-align: center;
-    font-size: 40px;
-  }
-  .dropbtn:hover{
-    rotate: -90deg;
-    transition: 0.25s;
-  }
-  .dropdown {
-    display: inline-block;
-    position: fixed;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: blue;
-    font-size: 20px;
-    min-width: 6rem;
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: white;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #000000;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #0000ff;}
-
-.split{
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+body{
+    font-family: "Reddit Mono", monospace;
+    background-color: rgb(241, 241, 233);
+    color: rgb(53, 18, 25);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: grid;
+    padding-bottom: 10%;
 }
-
-.left-pane {
-  left: 0;
-  background-color: #111;
+.works{
+  margin-left: 20%;
 }
-
-.right-pane {
-  right: 0;
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  align-items:flex-start;
-  /* justify-content: center; */
+.name{
+  font-size: 80px;
+  text-align: right;
 }
-
-.nav-left {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.item-title{
+  font-size: 30px;
 }
-
-.nav-right{
-    margin: 50px 0 50px 0;
-}
-
-.explore-menu-item{
-    width: 100%;
-}
-
-.menu-label{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.menu-item-title{
-    color: black;
-}
-
-.menu-button{
-    color: white;
-    background-color: lightgray;
-    border-radius: 20px;
-    margin-left: 10px;
-}
-
-hr{
-    height: 2px;
-    background-color: #000000;
-    border: #000000;
-    width: 50rem;
-    justify-items: center;
-}
-#WLimg, #CLimg, #BLimg, #RBimg, #CBimg {
-    display: none;
-}
-
 img{
-    width: 50%;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: 2rem;
-    
+  width: 200px;
+  padding: 4%;
 }
-img:hover{
-    filter: invert(100%);
-    transition: 0.3s;
-}
+.image-item{
+  text-align: right;
+  display: grid;
+  grid-template-columns: auto auto auto;
 
-.expand{
-    rotate: 90deg;
-    transition: 0.25s;
+}
+.navbar{
+  width: 20%;
+  margin-top: 10%;
+  position: fixed;
+  padding: 0.5%;
+
+}
+.navbar a {
+  margin-bottom: 5%;
+  grid-area: 3%;
 }
