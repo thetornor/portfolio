@@ -34,4 +34,11 @@ body{
 }
 .text{
   width: 50%;
+  margin-top: 10%;
+}
+.navbar{
+  margin-top: 2%;
+  position: fixed;
+  background-color:  rgb(241, 241, 233);
+  padding: 4px;
 }
