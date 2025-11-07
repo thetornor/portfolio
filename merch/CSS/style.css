@@ -7,6 +7,7 @@ body{
     padding: 5%;
 }
 .heading{
+    margin-top: 5%;
     font-size: 50px;
     text-align: left;
     padding-bottom: 4%;
@@ -42,4 +43,9 @@ hr{
 .camera1{
     width: 80%;
     margin: 10%;
+}
+.navbar{
+ background-color: rgb(241, 241, 233);
+  position: fixed;
+  padding: 3px;
 }
